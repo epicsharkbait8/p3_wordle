@@ -1,4 +1,10 @@
-word = "chama"
+import random
+possible_words = ["chama", "seven", "radio", "japan", "costa"]
+
+
+
+
+word = random.choice(possible_words)
 
 
 default = '\033[0m'
